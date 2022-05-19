@@ -49,10 +49,6 @@ nav a:hover{
 
 }
 
-.rosa{
-    background: #d4520d;
-}
-
 .toponav{
     background-color: #AEC7BB;
     border-radius: 90% 0% 40% 55%;
@@ -149,7 +145,6 @@ nav a:hover{
 .d1{
     transform: rotate(-30deg);
     transform: translateX(-15px);
-    /* transform: translateY(20px); */
 }
 
 
@@ -166,6 +161,7 @@ nav a:hover{
 /* -------------------------- SOBRE ------------------- */
 .sobre{ 
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-top: 5%;
     height: 500px;
@@ -175,6 +171,10 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     margin-left: 5px;
+}
+
+.mao-direita{
+    transform: rotate(260deg);
 }
 
 .linha1{
@@ -221,4 +221,28 @@ nav a:hover{
     display: flex;
     margin-top: 20px;
     gap: 8px;
+}
+
+.dedinho{
+    display: flex;
+    margin-top: 20px;
+    gap: 8px;
+    transform: rotate(2deg);
+}
+
+.l-dedinho-1{
+    background-color: #fff;
+    width: 50px;
+    height: 20px;
+}
+.l-dedinho-2{
+    background-color: #fff;
+    width: 50px;
+    height: 20px;
+}
+.l-dedinho-3{
+    background-color: #fff;
+    border-radius: 10% 36% 75% 2%;
+    width: 50px;
+    height: 20px;
 }
