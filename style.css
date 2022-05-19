@@ -12,11 +12,12 @@ html{
 body{
     font-family: 'Indie Flower', cursive;
     
+    
 }
 /* ------------------------------------------ */
 
 main{
-    background-color: #000;
+    background-color: #272626;
     min-width: 100%;
     min-height: 945px;
 }
@@ -167,4 +168,61 @@ nav a:hover{
     100%{
         transform: translateY(100%);
     }
+}
+
+/* -------------------------- SOBRE ------------------- */
+.sobre{
+    margin-top: 5%;
+    height: 500px;
+    background-color: #272626;
+}
+.mao{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha1{
+    padding-top: 10px;
+    display: flex;
+    row-gap: 10px;
+    gap: 8px;
+}
+
+.dedao{
+    background-color: #fff;
+    width: 20px;
+    height: 60px;
+    transform: rotate(30deg);
+    border-radius: 10% 57% 5% 0%;
+}
+
+.dedo1{
+    background-color: #fff;
+    width: 60px;
+    height: 20px;
+}
+
+.dedomeio{
+    background-color: #fff;
+    width: 80px;
+    height: 20px;
+}
+
+.dedo2{
+    background-color: #fff;
+    border-radius: 10% 36% 75% 2%;
+    width: 60px;
+    height: 20px;
+}
+
+.linha2{
+    display: flex;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.linha3{
+    display: flex;
+    margin-top: 20px;
+    gap: 8px;
 }
