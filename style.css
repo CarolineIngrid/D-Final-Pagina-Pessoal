@@ -19,7 +19,7 @@ body{
 main{
     background-color: #272626;
     min-width: 100%;
-    min-height: 945px;
+    min-height: 1000px;
 }
 
 nav{
@@ -67,13 +67,6 @@ nav a:hover{
     border-radius: 100px 0px;
 }
 
-.teste1{
-    background-color: yellow;
-    border-radius: 100px 0px 100px 50px;
-    height: 250px;
-    width: 250px;
-}
-
 .olho1{
     background-color: #fff;
     width: 200px;
@@ -100,14 +93,14 @@ nav a:hover{
 
 .olhos{
     gap: 5px;
-    margin-top: 15%;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
 }
 
 .boca{
     color: #fff;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: 5%;
     display: flex;
     justify-content: center;
@@ -171,7 +164,9 @@ nav a:hover{
 }
 
 /* -------------------------- SOBRE ------------------- */
-.sobre{
+.sobre{ 
+    display: flex;
+    align-items: center;
     margin-top: 5%;
     height: 500px;
     background-color: #272626;
@@ -179,6 +174,7 @@ nav a:hover{
 .mao{
     display: flex;
     flex-direction: column;
+    margin-left: 5px;
 }
 
 .linha1{
