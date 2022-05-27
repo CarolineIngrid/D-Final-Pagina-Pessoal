@@ -5,12 +5,13 @@
 *{
     margin: 0;
     padding: 0;
-  
     box-sizing: border-box;
 }
+
 html{
     height: 100%;
     scroll-behavior: smooth;
+    
 }
 
 body{
@@ -324,11 +325,24 @@ nav a:hover{
 
 .portfolio { 
     display: flex;
-    border: #fff dashed;
     background-color: #272626;
     min-width: 100%;
     min-height: 100vh;
     font-family: 'Creepster', cursive;
 
+}
+
+.port-img-1{
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+footer{
+    height: 600px;
+    background-color: #272626;
+    background-image: url(imagens/realistic-dripping-blood-texture-free-with-transparent-background.png);
+    background-size: 100% 556px;
+    background-repeat: no-repeat;
 }
 
