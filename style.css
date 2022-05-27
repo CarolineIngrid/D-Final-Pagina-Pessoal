@@ -1,5 +1,6 @@
 /* ------reset------ */
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -15,14 +16,16 @@ html{
 body{
     overflow-x: hidden;
     
+    
 }
 /* ------------------------------------------ */
 
 main{
     background-color: #272626;
     min-width: 100%;
-    min-height: 1200px;
+    min-height: 100vh;
     font-family: 'Creepster', cursive;
+    
 }
 
 nav{
@@ -164,29 +167,65 @@ nav a:hover{
 
 /* -------------------------- SOBRE ------------------- */
 .sobre{ 
-    font-family: 'Koulen', cursive;
-    display: flex;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
-    margin-top: 2px;
-    height: 970px;
+    height: 1400px;
     background-color: #272626;
     color: #fff;
+
 }
+
+.sobre h2{ 
+    padding-top: 2% ;
+    display: flex;
+    font-size: 115px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #bd0101;
+    font-family: 'Creepster', cursive;
+    text-shadow:  30px -35px #bd0101;
+    margin-left: 5%;
+}
+
+
+   
+
 .mao{
+    
+}
+
+.sobre-texto{
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.sobre-topic{
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
 }
+
 .conteudo-sobre{
-    background-color: #588157;
+   display: flex;
     width: 900px;
-    border-radius: 20% 0% 20% 55%;
+    width: 600px;
+
+}
+.maozinha{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 30%;
+    margin-right: 18%;
 }
 
 .mao-direita{
     transform: rotate(240deg);
-    margin-right: 2%;
+    box-shadow: green 27em -29em 7em;
+    margin-top: 73%;
 }
 
 .linha1{
