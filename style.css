@@ -191,34 +191,34 @@ nav a:hover{
     margin-left: 5%;
 }
 
-
-   
-
-.mao{
-    
-}
-
 .sobre-texto{
-    margin-top: 15%;
-    margin-left: 25%;
+    margin: 5% 5% 0% 2%;
+    height: 800px;
+
 }
 
 .sobre-topic{
-    display: flex;
-    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
+
+
+.topic{
+    border: #bd0101 1px solid;
+}
+
 
 .conteudo-sobre{
    display: flex;
-    width: 900px;
-    width: 600px;
-
+   flex-direction: row;
 }
+
 .maozinha{
     display: flex;
     justify-content: flex-end;
     position: relative;
     bottom: 30%;
+    height: 30%;
     margin-right: 18%;
 }
 
@@ -297,3 +297,22 @@ nav a:hover{
     width: 50px;
     height: 20px;
 }
+.pequena-ingrid{
+    border-radius: 100%;
+    margin-left: -12%;
+    width: 400px;
+    height: 400px;
+}
+
+/* ----------------- PORTFOLIO------------ */
+
+.portfolio { 
+    border: #fff dashed;
+
+    background-color: #272626;
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: 'Creepster', cursive;
+
+}
+
