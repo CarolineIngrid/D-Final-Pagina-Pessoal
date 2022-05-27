@@ -193,13 +193,14 @@ nav a:hover{
 
 .sobre-texto{
     margin: 5% 5% 0% 2%;
-    height: 800px;
+    height: 372px;
 
 }
 
 .sobre-topic{
     margin-top: 2%;
     margin-bottom: 2%;
+    font-weight: bold;
 }
 
 
@@ -213,19 +214,15 @@ nav a:hover{
    flex-direction: row;
 }
 
-.maozinha{
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 30%;
-    height: 30%;
-    margin-right: 18%;
-}
-
 .mao-direita{
-    transform: rotate(240deg);
-    box-shadow: green 27em -29em 7em;
-    margin-top: 73%;
+     /* transform: rotate(240deg); */
+     width: 200px;
+    /*box-shadow: green 27em -29em 7em; */
+    /* margin-top: 73%; */
+} 
+
+.mao-esquerda{
+    width: 200px;
 }
 
 .linha1{
@@ -304,11 +301,30 @@ nav a:hover{
     height: 400px;
 }
 
+.tri {
+    margin: 40px;
+    background-color: #bd0101;
+    height: 30px;
+    transform: rotate(-45deg);
+    width: 30px;
+    position: relative;
+}
+
+/* .heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+} */
+
 /* ----------------- PORTFOLIO------------ */
 
 .portfolio { 
+    display: flex;
     border: #fff dashed;
-
     background-color: #272626;
     min-width: 100%;
     min-height: 100vh;
