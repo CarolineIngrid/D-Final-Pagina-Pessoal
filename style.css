@@ -15,6 +15,7 @@ html{
 }
 
 body{
+    
     overflow-x: hidden;
     
     
@@ -92,7 +93,7 @@ nav a:hover{
     margin-left: 30px;
     animation: quica 1s;
     animation-direction: alternate;
-    animation-iteration-count: 4;
+    animation-iteration-count: 12;
 }
     
 
@@ -174,7 +175,7 @@ nav a:hover{
     /* display: flex; */
     justify-content: space-between;
     align-items: center;
-    height: 1400px;
+    height: 1000px;
     background-color: #272626;
     color: #fff;
 
@@ -193,8 +194,9 @@ nav a:hover{
 }
 
 .sobre-texto{
-    margin: 5% 5% 0% 2%;
-    height: 372px;
+    margin: 5% 20% 0% 5%;
+    height: 300px;
+    line-height: 50px;
 
 }
 
@@ -297,7 +299,7 @@ nav a:hover{
 }
 .pequena-ingrid{
     border-radius: 100%;
-    margin-left: -12%;
+    margin-left: -40%;
     width: 400px;
     height: 400px;
 }
@@ -310,16 +312,68 @@ nav a:hover{
     width: 30px;
     position: relative;
 }
+     
+/* bottom */
+.progress-container:not(:last-child) {
+    margin-bottom: 50px;
+}
 
-/* .heart:before,
-.heart:after {
-    content: "";
-    background-color: red;
-    border-radius: 50%;
-    height: 50px;
-    position: absolute;
-    width: 50px;
-} */
+/* cor, espaço.*/
+.progress-container h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.progress-bar {
+    width: 800px;
+    height: 5px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #3d5823;
+}
+
+.porcentagem{
+    display: block;
+    height: 100%;
+    background-color: #d9e7cd;
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+
+/* Assigning width of each languages*/
+
+.java {
+    width: 70%;
+}
+
+.sql {
+    width: 15%;
+}
+
+.html {
+    width: 45%;
+}
+
+.css {
+    width: 35%;
+}
+
+.python {
+    width: 8%;
+}
+
+.skills{
+    margin-left: 15%;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
 
 /* ----------------- PORTFOLIO------------ */
 
@@ -328,6 +382,7 @@ nav a:hover{
     background-color: #272626;
     min-width: 100%;
     min-height: 100vh;
+    padding-top: 10%;
     font-family: 'Creepster', cursive;
 
 }
@@ -342,7 +397,13 @@ footer{
     height: 600px;
     background-color: #272626;
     background-image: url(imagens/realistic-dripping-blood-texture-free-with-transparent-background.png);
-    background-size: 100% 556px;
+    background-size: 100% 500px;
     background-repeat: no-repeat;
+}
+
+footer > a{
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
 }
 
