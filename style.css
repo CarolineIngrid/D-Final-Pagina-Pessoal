@@ -391,6 +391,11 @@ nav a:hover{
     width: 300px;
     height: 400px;
     border-radius: 50px;
+    filter: grayscale(5);
+}
+
+.port-quadros{
+    display: flex;
 }
 
 footer{
