@@ -305,8 +305,8 @@ nav a:hover{
 .pequena-ingrid{
     border-radius: 100%;
     margin-left: -40%;
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
 }
 
 .tri {
@@ -388,7 +388,7 @@ nav a:hover{
     background-color: #272626;
     min-width: 100%;
     min-height: 100vh;
-    padding-top: 10%;
+    padding-top: 25%;
     font-family: 'Creepster', cursive;
     flex-direction: column;
     align-items: center;
@@ -396,8 +396,8 @@ nav a:hover{
 }
 
 .port-img-1{
-    width: 293px;
-    height: 400px;
+    width: 250px;
+    height: 350px;
     border-radius: 33px;
     filter: grayscale(4);
 }
@@ -407,10 +407,10 @@ nav a:hover{
 }
 
 footer{
-    height: 600px;
+    height: 500px;
     background-color: #272626;
     background-image: url(imagens/realistic-dripping-blood-texture-free-with-transparent-background.png);
-    background-size: 100% 500px;
+    background-size: 100% 400px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
@@ -423,3 +423,63 @@ footer > a{
     font-size: 20px;
 }
 
+/* Adicionando estilos para telas menores que 768px */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    .sobre h2 {
+        font-size: 60px;
+    }
+
+    .conteudo-sobre {
+        flex-direction: column;
+    }
+
+    /* .mao-direita,
+    .mao-esquerda {
+        display: none;
+    } */
+
+    .port-img-1{
+        width: 150px;
+        height: 150px;
+        border-radius: 33px;
+        filter: grayscale(4);
+    }
+
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .progress-bar {
+        width: 80%;
+    }
+
+    .skills {
+        margin-left: 0;
+    }
+    .portfolio { 
+        padding-top: 40%;
+    }
+}
+
+/* Adicionando estilos para telas menores que 480px */
+@media only screen and (max-width: 480px) {
+    .port-img-1 {
+        width: 150px;
+        height: 250px;
+    }
+
+    .footer {
+        height: 300px;
+        background-size: 100% 250px;
+    }
+}
